@@ -1,0 +1,24 @@
+/*jslint node: true */
+"use strict";
+
+const request = require('request');
+
+const target_app = 'http://127.0.0.1:4567/message';
+
+function onMessage(data) {
+    let options = {
+        url: target_app,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+        method: 'POST',
+        timeout: 10000
+    }
+
+    request(options, function(error, response, body) {
+        // pass
+    });
+}
+
+module.exports = {
+    onMessage: onMessage
+};

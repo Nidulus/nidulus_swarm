@@ -1,0 +1,26 @@
+/*jslint node: true */
+"use strict";
+
+const net = require('net');
+
+const target_app_port = 1337;
+
+function onMessage(data) {
+    let client = new net.Socket();
+
+    client.connect(target_app_port, '127.0.0.1', function() {
+        client.write(JSON.stringify(data));
+    });
+
+    client.on('data', function(data) {
+        client.destroy();
+    });
+
+    client.on('close', function() {
+        // pass
+    });
+}
+
+module.exports = {
+    onMessage: onMessage
+};
