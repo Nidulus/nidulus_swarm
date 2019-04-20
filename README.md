@@ -3,7 +3,7 @@ Nidulus MESH Swarm Controller
 
 ## Connecting the world
 
-This neat little application will put all your machines/devices who share the same network in a shared MESH Swarm.\
+This neat little application will put all your machines/devices which share the same network in a shared MESH Swarm.\
 Sending data to all other nodes on the network is as easy as doing a HTTP POST to\ http://localhost:your_configured_port/communicate
 
 Originally created for quick syncing of data between devices.
