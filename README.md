@@ -35,6 +35,10 @@ svc.js:               The file containing onMessage function which is executed e
 4: Start the nidulus_swarm\
 5: Use it (see below)
 
+### Firewall
+
+Don't be THAT guy. Remove block on udp port 11223 and you should be fine.
+
 ### Configuring
 
 #### threads
