@@ -3,8 +3,8 @@ Nidulus MESH Swarm Controller
 
 ## Connecting the world
 
-This neat little application will put all your machines/devices who share the same network in a shared MESH Swarm.
-Sending data to all other nodes on the network is as easy as doing a HTTP POST to http://localhost:your_configured_port/communicate
+This neat little application will put all your machines/devices who share the same network in a shared MESH Swarm.\
+Sending data to all other nodes on the network is as easy as doing a HTTP POST to\ http://localhost:your_configured_port/communicate
 
 Originally created for quick syncing of data between devices.
 
@@ -21,16 +21,16 @@ Linux x64
 
 When you download and unzip the package you will find three ( 3 ) important files.
 
-nidulus_swam:         The application
-config/settings.json: The configuration
+nidulus_swam:         The application\
+config/settings.json: The configuration\
 svc.js:               The file containing onMessage function which is executed each time another node sent a message
 
 ### Getting started
 
-1: Place the package on all machines/devices you want to swarm
-2: Unpack (duh)
-3: Edit the config/settings.json file (see below)
-4: Start the nidulus_swarm
+1: Place the package on all machines/devices you want to swarm\
+2: Unpack (duh)\
+3: Edit the config/settings.json file (see below)\
+4: Start the nidulus_swarm\
 5: Use it (see below)
 
 ### Configuring
@@ -57,7 +57,7 @@ Set the port you want to use for the built-in webserver that handles your messag
 
 #### Sending a message to the swarm
 
-When any of your applications want to send a message to the other nodes, just perform a HTTP POST to http://localhost:your_configured_port/communicate
+When any of your applications want to send a message to the other nodes, just perform a HTTP POST to\ http://localhost:your_configured_port/communicate
 
 Yes, http, not https. It only listens on interface "127.0.0.1" anyways for internal-only usage on the machine.
 
@@ -74,3 +74,7 @@ Note: You will not receive your own messages, that you sent from that same machi
 ### Not a NodeJS developer? Fear not! We got you covered!
 
 Check out our examples folder. We got two ( 2 ) examples there, one for http posting and one for tcp send, so you can forward the message to your own application and out of the NodeJS world. Just replace svc.js with any of the two from the examples folder. Enjoy!
+
+Note: If you chose the http example, you must run "npm install" in that folder. package.json is configured already to download request, which that example uses. This means you need to download npm (comes with nodejs, pick latest LTS version).
+
+This is not required for the tcp example, "net" package comes with nodejs, and our binary has a modified nodejs built-in.
