@@ -57,7 +57,7 @@ Set the port you want to use for the built-in webserver that handles your messag
 
 If you have one of these, you will get three ( 3 ) additional endpoints available on the http server:
 
-/counters   - HTTP GET - Lists 7 days history of messages sent/received. Each entry represents one hour.\
+/counters   - HTTP GET - Lists 7 days history of messages counted sent/received. Each entry represents one hour.\
 /network    - HTTP GET - Lists 7 days history of visible nodes in swarm. Each entry represents one minut.\
 /statistics - HTTP GET - Lists 7 days history of hardware usage. Each entry represents 2 minutes.
 
