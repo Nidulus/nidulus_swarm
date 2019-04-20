@@ -51,14 +51,14 @@ Each node on your network that you want to swarm together, needs to use the same
 
 #### rest.port
 
-Set the port you want to use for the built-in webserver that handles your message sending to the swarm
+Set the port you want to use for the built-in webserver that handles your message sending to the swarm.
 
 #### premium_license
 
 If you have one of these, you will get three ( 3 ) additional endpoints available on the http server:
 
-/counters   - HTTP GET - Lists 7 days history of messages sent/received. Each entry represents one hour.
-/network    - HTTP GET - Lists 7 days history of visible nodes in swarm. Each entry represents one minut.
+/counters   - HTTP GET - Lists 7 days history of messages sent/received. Each entry represents one hour.\
+/network    - HTTP GET - Lists 7 days history of visible nodes in swarm. Each entry represents one minut.\
 /statistics - HTTP GET - Lists 7 days history of hardware usage. Each entry represents 2 minutes.
 
 Shown statistics for last endpoint includes: Process own memory usage, machine overall cpu usage, machine overall memory usage ( total + free), disk usage ( total + free ). More will be added.
