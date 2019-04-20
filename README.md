@@ -21,7 +21,7 @@ Linux x64
 
 When you download and unzip the package you will find three ( 3 ) important files.
 
-nidulus_swam:         The application\
+nidulus_swarm:        The application\
 config/settings.json: The configuration\
 svc.js:               The file containing onMessage function which is executed each time another node sent a message
 
