@@ -4,8 +4,7 @@ Nidulus MESH Swarm Controller
 ## Connecting the world
 
 This neat little application will put all your machines/devices who share the same network in a shared MESH Swarm.
-Sending data to all other nodes on the network is as easy as doing a HTTP POST to
-http://localhost:<your_configured_port>/communicate
+Sending data to all other nodes on the network is as easy as doing a HTTP POST to http://localhost:your_configured_port/communicate
 
 Originally created for quick syncing of data between devices.
 
@@ -58,8 +57,7 @@ Set the port you want to use for the built-in webserver that handles your messag
 
 #### Sending a message to the swarm
 
-When any of your applications want to send a message to the other nodes, just perform a HTTP POST to
-http://localhost:<your_configured_port>/communicate
+When any of your applications want to send a message to the other nodes, just perform a HTTP POST to http://localhost:your_configured_port/communicate
 
 Yes, http, not https. It only listens on interface "127.0.0.1" anyways for internal-only usage on the machine.
 
