@@ -15,7 +15,7 @@ https://swarm.nidulus.io
 Feel free to also check out https://platform.nidulus.io were some of the code were borrowed from
 
 ### Prerequisites
-Linux x64
+Linux x64 ( Soon available, Linux armv7 and Linux armv8 )
 
 ### Description of nidulus_swarm
 
