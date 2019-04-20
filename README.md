@@ -55,7 +55,7 @@ Each node on your network that you want to swarm together, needs to use the same
 
 Set the port you want to use for the built-in webserver that handles your message sending to the swarm.
 
-#### premium_license
+#### premium_license ( Coming soon )
 
 If you have one of these, you will get three ( 3 ) additional endpoints available on the http server:
 
