@@ -81,7 +81,9 @@ Yes, http, not https. It only listens on interface "127.0.0.1" anyways for inter
 
 svc.js file has a function:
 
-function onMessage(data) {}
+```js
+   function onMessage(data) {}
+```
 
 "data" is the message. You are welcome ;)
 
