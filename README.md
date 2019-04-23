@@ -37,7 +37,7 @@ svc.js:               The file containing onMessage function which is executed e
 
 ### Firewall
 
-Don't be THAT guy. Remove block on udp port 11223 and you should be fine.
+Don't be THAT person. Remove block on udp port 11223 and you should be fine.
 
 ### Configuring
 
