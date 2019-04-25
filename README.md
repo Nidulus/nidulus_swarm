@@ -12,7 +12,7 @@ Originally created for quick syncing of data between devices.
 
 https://swarm.nidulus.io
 
-Feel free to also check out https://platform.nidulus.io were some of the code were borrowed from
+Feel free to also check out https://platform.nidulus.io were some of the code was borrowed from
 
 ### Prerequisites
 Linux x64\
