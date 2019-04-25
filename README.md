@@ -16,8 +16,8 @@ Feel free to also check out https://platform.nidulus.io were some of the code wa
 
 ### Prerequisites
 Linux x64\
-Linux armv7 ( Coming soon )\
-Linux armv8 ( Coming soon )
+Linux armv7\
+Linux armv8
 
 ### Description of nidulus_swarm
 
@@ -98,3 +98,13 @@ Note: If you chose the http example, you must run "npm install" in that folder. 
 This is not required for the tcp example, "net" package comes with nodejs, and our binary has a modified nodejs built-in.
 
 If your project requires great throughput you should consider learning NodeJS. Doing http/socket sending to a different application will always be slower than handling the message directly in NodeJS by extending svc.js in its native language.
+
+### DISCLAIMER
+
+This software is free to use "as is", for any purpose. Nidulus is not responsible for any mishap this free software might cause your specific project. It is your responsibility to test this software for your specific  design solution and needs before deciding if it fits your needs.\
+After any upgrade of version you should test it again for your specific solution.
+
+For any other setup you will need to contact us for a tailored support deal.
+
+Nidulus does welcome feedback, of any kind, as we keep improving our software continuously.\
+Report eventual bugs or strange behaviour to contact@nidulus.io with subject "Swarm controller".
