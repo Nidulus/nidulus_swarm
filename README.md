@@ -96,3 +96,5 @@ Check out our examples folder. We got two ( 2 ) examples there, one for http pos
 Note: If you chose the http example, you must run "npm install" in that folder. package.json is configured already to download request, which that example uses. This means you need to download npm (comes with nodejs, pick latest LTS version).
 
 This is not required for the tcp example, "net" package comes with nodejs, and our binary has a modified nodejs built-in.
+
+If your project requires great throughput you should consider learning NodeJS. Doing http/socket sending to a different application will always be slower than handling the message directly in NodeJS by extending svc.js in its native language.
