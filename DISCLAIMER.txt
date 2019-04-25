@@ -1,0 +1,11 @@
+DISCLAIMER
+
+This software is free to use "as is", for any purpose. Nidulus is not responsible for any mishap
+this free software might cause your specific project. It is your responsibility to test this
+software for your specific  design solution and needs before deciding if it fits your needs.
+After any upgrade of version you should test it again for your specific solution.
+
+For any other setup you will need to contact us for a tailored support deal.
+
+Nidulus does welcome feedback, of any kind, as we keep improving our software continuously.
+Report eventual bugs or strange behaviour to contact@nidulus.io with subject "Swarm controller".
